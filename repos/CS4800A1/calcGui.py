@@ -12,6 +12,16 @@ box.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 #Event handlers
 #Enters the button input for equations
 def button_click(selection):
+    
+
+    # if selection == '+' or '-' or '*' or '/' or '.':
+    #     if box.index(0) == '+' or '-' or '*' or '/' or '.':
+    #         return
+    #     else:
+    #         insert_point = box.get()
+    #         box.delete(0, END)
+    #         box.insert(0, str(insert_point) + str(selection))
+    # else:   
     insert_point = box.get()
     box.delete(0, END)
     box.insert(0, str(insert_point) + str(selection))
